@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.x {
+    background-image:url(images/X.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.o {
+    background-image:url(images/O.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin:20px;
+}
+
+#reset {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+
+}
