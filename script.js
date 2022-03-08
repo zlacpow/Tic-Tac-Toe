@@ -82,7 +82,7 @@ function cellClicked(e) {
             document.getElementById('score1').innerHTML=player1Score;
             cells.forEach(cell=>{
                 cell.removeEventListener('click',cellClicked);});
-            setTimeout(start,2500);
+            setTimeout(start,2000);
         }
         
     
