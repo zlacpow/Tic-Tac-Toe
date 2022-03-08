@@ -25,9 +25,7 @@ function start() {
 }
     
     
-    cells.forEach(cell=>{
-        cell.addEventListener('click', cellClicked, {once: true});
-    });
+    start();
 
     document.getElementById('reset').addEventListener('click',function() {
         player1Score=0;
