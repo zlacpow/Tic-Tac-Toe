@@ -99,8 +99,7 @@ function cellClicked(e) {
 
     
     }
-    if(player1) player1=false;
-    else player1=true;
+    player1=!player1;
     turn++;
     if(turn==10) {
         cells.forEach(cell=>{
